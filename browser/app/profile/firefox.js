@@ -391,7 +391,7 @@ pref("browser.urlbar.accessibility.tabToSearch.announceResults", true);
 pref("browser.urlbar.autoFill", true);
 
 // Whether enabling adaptive history autofill.
-pref("browser.urlbar.autoFill.adaptiveHistory.enabled", false);
+pref("browser.urlbar.autoFill.adaptiveHistory.enabled", true);
 
 // Minimum char length of the user's search string to enable adaptive history
 // autofill.
@@ -423,7 +423,7 @@ pref("browser.urlbar.loglevel", "Error");
 pref("browser.urlbar.maxRichResults", 10);
 
 // The maximum number of historical search results to show.
-pref("browser.urlbar.maxHistoricalSearchSuggestions", 2);
+pref("browser.urlbar.maxHistoricalSearchSuggestions", 3);
 
 // The default behavior for the urlbar can be configured to use any combination
 // of the match filters with each additional filter adding more results (union).
@@ -3366,3 +3366,8 @@ pref("toolkit.contentRelevancy.log", false);
 // rotation altogether.
 pref("browser.contextual-services.contextId.rotation-in-days", 0);
 pref("browser.contextual-services.contextId.rust-component.enabled", false);
+
+// The default search engine
+pref("browser.search.defaultenginename", "DuckDuckGo");
+pref("browser.search.selectedEngine", "DuckDuckGo");
+
