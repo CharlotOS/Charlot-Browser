@@ -3371,3 +3371,9 @@ pref("browser.contextual-services.contextId.rust-component.enabled", false);
 pref("browser.search.defaultenginename", "DuckDuckGo");
 pref("browser.search.selectedEngine", "DuckDuckGo");
 
+// No sponsored shortcuts
+pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+pref("browser.newtabpage.activity-stream.showSponsored", false);
+pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+pref("extensions.pocket.enabled", false);
+
